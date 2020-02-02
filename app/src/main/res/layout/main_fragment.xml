@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+    <com.bmacedo.intervalprogressbar.ui.main.IntervalSeekBar
+        android:id="@+id/message"
+        style="@style/IntervalSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="2"
+        android:progressDrawable="@drawable/orange_progress"
+        android:secondaryProgress="3"
+        android:thumb="@drawable/thumb"
+        app:highlightPosition="3"
+        app:isDragEnabled="false" />
+
+</LinearLayout>

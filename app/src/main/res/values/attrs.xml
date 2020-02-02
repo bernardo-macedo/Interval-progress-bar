@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="highlightPosition" format="integer"/>
+        <attr name="defaultTickMark" format="reference"/>
+        <attr name="highlightedTickMark" format="reference"/>
+        <attr name="isDragEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>

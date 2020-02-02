@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="IntervalSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="defaultTickMark">@drawable/default_tick_mark</item>
+        <item name="highlightedTickMark">@drawable/highlighted_tick_mark</item>
+        <item name="android:splitTrack" tools:targetApi="lollipop">false</item>
+        <item name="android:thumbOffset">10dp</item>
+    </style>
+
+</resources>

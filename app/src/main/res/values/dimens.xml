@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumb_size">28dp</dimen>
+    <dimen name="progress_corner_radius">10dp</dimen>
+    <dimen name="progress_tick_size">6dp</dimen>
+</resources>
